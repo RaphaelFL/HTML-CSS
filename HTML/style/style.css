@@ -1,0 +1,136 @@
+@charset "UTF-8";
+
+body {
+    background-image: url(../Img/fundo.jpg);
+
+}
+
+.card {
+    padding: 10px;
+}
+
+.Dado {
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
+    padding: 10px;
+    height: 200px;
+    width: 250px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.About {
+    display: inline-flex;
+    text-align: center;
+    height: 250px;
+    width: 240px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Experience {
+    display: inline-flex;
+    text-align: center;
+    height: 250px;
+    width: 240px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.Education {
+    display: inline-flex;
+    text-align: center;
+    height: 250px;
+    width: 240px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, .1);
+    padding: 10px;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.cardeimg {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border: 40px;
+}
+
+.fnunber {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.flink {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.flocal {
+
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+}
+
+.icone {
+    float: left;
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+}
+
+
+.cardnome {
+    display: flex;
+    line-height: 1.1em;
+}
+
+.CardsIn {
+
+    display: -ms-inline-flexbox;
+
+}
+
+.Cards {
+
+    display: flex;
+    align-items: center;
+
+}
+
+.actions {
+    display: center;
+    background: none;
+    border: none;
+    color: black;
+}
+
+.Buton :hover {
+    text-align: center;
+    color: dimgray;
+    cursor: pointer;
+}
+
+
+p {
+    text-align: left;
+}
+
+h4 {
+    text-align: center;
+}
+
+@media(min-width: 360px) and (max-width: 576px) {
+
+    .perfil {
+        display: block !important;
+    }
+
+}
